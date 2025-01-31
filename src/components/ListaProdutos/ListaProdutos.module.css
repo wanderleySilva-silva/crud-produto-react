@@ -1,0 +1,26 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+#body {
+	margin: 0;
+	min-height: 100vh;
+	background-color: #f8f9fa;
+  }
+  
+  .mainContent {
+	flex: 1;
+	padding: 20px;
+  }
+
+  table {
+	table-layout: auto;
+  }
+  
+  #tableContainer {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .acoes {
+	white-space: nowrap;
+  }

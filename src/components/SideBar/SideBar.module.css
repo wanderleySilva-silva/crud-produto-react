@@ -1,0 +1,21 @@
+#sidebar {
+	width: 250px;
+	min-height: calc(100vh - 56px);
+	background-color: #dbddde;
+	color: #fff;
+  }
+
+  #navLink {
+    color: #000000;
+    padding: 0.5rem 1rem;
+    }
+    
+    #navLink:hover {
+    color: #005eff;
+    background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    #navLink.active {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    }
